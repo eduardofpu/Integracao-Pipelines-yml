@@ -10,5 +10,7 @@ pipelines:
   default:
     - step:
         script:
-          - mvn -B verify    # -B batch mode makes Maven less verbose
+		  - git push https://github.com/eduardofpu/Integracao-Pipelines-yml
+          - mvn -B verify    # -B batch mode makes Maven less verbose		
           - echo "Seja bem vindo Eduardo"
+		  
